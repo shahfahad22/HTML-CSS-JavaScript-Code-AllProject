@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(100deg, #2c3e50, #3498db); */
+}
+.div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding-top: 18px;
+     margin: 10px;
+}
+h1{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+#input{
+ font-size: large;
+ width: 28%; 
+  padding: 10px; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+
+}
+.submit{
+   
+   font-size: 23px;
+   margin-left: 10px;
+}
+.todo-card {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 80%; 
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.todo-card span {
+  flex: 1; 
+  text-align: left;
+}
+
+.todo-card button{
+ margin-left: 10px;
+ font-size: 20px;
+ border: groove;
+   border-radius: 12px;
+  padding: 4px;
+ 
+}
+
+#todo-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 30px;
+}
+
+.todo-card {
+  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: end; 
+}
