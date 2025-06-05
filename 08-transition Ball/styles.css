@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 80px 0px 0px 39px;
+  
+}
+.boxes{
+    background-color: #4861ec;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 0px 10px #353f6d;
+    border-radius: 58%;
+    transition: all 5s;
+}
+
+.box1:hover{
+    transform: translateX(90vw);
+    transition: 3s ease-in;
+    background-color: #4bc77d;
+}
+.box2:hover{
+    transform: translateX(90vw);
+    transition: 3s ease-in;
+      background-color: #4bc77d;
+}
+.box3:hover{
+    transform: translateX(90vw);
+    transition: 3s ease-in;
+      background-color: #4bc77d;
+}
+.box4:hover{
+    transform: translateX(90vw);
+    transition: 3s ease-in;
+      background-color: #4bc77d;
+}
+.box5:hover{
+    transform: translateX(90vw);
+    transition: 3s ease-in;
+      background-color: #4bc77d;
+}
