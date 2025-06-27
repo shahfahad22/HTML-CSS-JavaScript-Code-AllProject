@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.container{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+header h2{
+    font-size: 1.4rem;
+}
+.btn{
+    background-color: black;
+    color: #fff;
+    padding: 9px 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+}
+.para{
+    margin-top: 12px;
+    font-size: 18px;
+}
+.para .contant-container-2{
+    display: none;
+}
+
+.contant-container-2.toggle{
+    display: block;
+}
