@@ -39,7 +39,7 @@ function handleSearch(e) {
   let filterUser = users.filter((obj) => {
     return obj.name.toLowerCase().includes(searchVal.toLowerCase());
   });
-  renderUser(filterUser);
+  renderUser(filterUser );
 }
 
 searchInput.addEventListener("input", handleSearch);
