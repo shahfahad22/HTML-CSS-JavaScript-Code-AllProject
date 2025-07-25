@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Slightly bigger small cursor */
+.smallCourser {
+  height: 16px;
+  width: 16px;
+  background-color: rgb(255, 230, 0);
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  transition: all 0.02s ease;
+}
+.smallCourser {
+  background-color: red;
+}
+
+/* Blurred glowing big cursor */
+.bigCourser {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(255, 230, 0);
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transition: all 0.1s ease;
+  filter: blur(12px);
+  opacity: 0.6;
+}
+
+.bigCourser {
+  background-color: red;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #0f0f0f;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
