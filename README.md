@@ -35,9 +35,10 @@ It’s a reflection of:
 ## 🤝 Connect With Me
 If you like my work, feel free to connect with me:  
 - 🌟 GitHub: [shahfahad22](https://github.com/shahfahad22)  
-- 💼 LinkedIn: [Your LinkedIn Profile](#) *(add your link here)*  
+- 💼 LinkedIn: https://www.linkedin.com/in/shah-fahad-4290a0251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app    
 - 📧 Email: *(add your email here)*  
 
 ---
 
 ✨ Thanks for visiting my repo — I hope you enjoy exploring my projects!
+
