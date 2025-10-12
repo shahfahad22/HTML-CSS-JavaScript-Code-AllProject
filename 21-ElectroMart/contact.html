@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>ElectroMart | Your Trusted Electronics Store</title>
+     <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img src="./public/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact</a></li>
+            <li>
+              <a href="./addToCart.html" class="nav-link"
+                ><i class="fas fa-shopping-cart"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+
+
+    <!-- Contact Section -->
+<section class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feedback, or inquiries – we’d love to hear from you!</p>
+
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Form Submitted!');">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" placeholder="Type your message here..." required></textarea>
+      </div>
+
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+    
+    <!-- FOOTER Section -->
+
+<footer>
+  <div class="footer-container">
+    
+    <!-- Column 1: Contact Info -->
+    <div class="footer-column">
+      <h2>ElectroMart</h2>
+      <p>📱 WhatsApp: +92 344-9762-513</p>
+      <p>📞 Call Us: +92 344-9763-513</p>
+      <div class="app-links">
+        <img src="./public/logo.png" alt="App Store">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+      </div>
+    </div>
+
+    <!-- Column 2: Popular Categories -->
+    <div class="footer-column">
+      <h3>Most Popular Categories</h3>
+      <ul>
+        <li>Staples</li>
+        <li>Beverages</li>
+        <li>Personal Care</li>
+        <li>Home Care</li>
+        <li>Baby Care</li>
+        <li>Vegetables & Fruits</li>
+        <li>Snacks & Biscuits</li>
+        <li>Dairy & Bakery</li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Customer Services -->
+    <div class="footer-column">
+      <h3>Customer Services</h3>
+      <ul>
+        <li>About Us</li>
+        <li>Terms & Conditions</li>
+        <li>FAQ</li>
+        <li>Privacy Policy</li>
+        <li>Refund Policy</li>
+        <li>Cancellation & Return Policy</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 All rights reserved | Powered by ElectroMart Ltd
+  </div>
+</footer>
+<script type="module" src="./src/main.js"></script>
+</body> 
+</html>
