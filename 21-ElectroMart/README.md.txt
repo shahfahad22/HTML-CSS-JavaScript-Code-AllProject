@@ -2,6 +2,7 @@
 
 ![ElectroMart Logo](./public/logo.png) <!-- Replace with your actual logo or screenshot -->
 
+
 ## Overview
 
 **ElectroMart** is a modern, fully responsive e-commerce website built from scratch.  
