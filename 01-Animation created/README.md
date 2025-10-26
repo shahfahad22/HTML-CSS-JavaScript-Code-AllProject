@@ -3,6 +3,7 @@
 ## 📝 Project Description
 This project demonstrates a **custom loading animation** using HTML and CSS. The animation consists of four bouncing dots that shrink and grow in size continuously, creating a visually appealing loader effect. It can be used as a **preloader** for websites or web applications to enhance user experience while content is loading.
 
+
 ---
 
 ## 🚀 Features
