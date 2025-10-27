@@ -8,7 +8,7 @@ This project demonstrates how to use **closures** for data privacy while keeping
 ## 🖼️ Project Preview
 (Add your image below 👇)
 
-![App Preview](./preview.png)
+![App Preview](https://github.com/shahfahad22/HTML-CSS-JavaScript-Code-AllProject/blob/f114b3accbd045695de8a1331f0886187583c5af/23-My%20Bank%20Account%20App/images/Screenshot%20.png)
 
 ---
 
