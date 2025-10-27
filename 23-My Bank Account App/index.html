@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank Account App</title>
+</head>
+<body>
+    <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1a1a1a, #232526);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .bank {
+      background: #2c2f33;
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+      width: 320px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .bank:hover {
+      transform: scale(1.02);
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      margin: 15px 0;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      background: #3b3f45;
+      color: #fff;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: #fff;
+    }
+
+    #depositBtn {
+      background: linear-gradient(45deg, #00b09b, #96c93d);
+    }
+
+    #withdrawBtn {
+      background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    }
+
+    #checkBtn {
+      background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    }
+
+    button:hover {
+      opacity: 0.9;
+      transform: translateY(-2px);
+    }
+
+    #message {
+      margin-top: 20px;
+      font-weight: 500;
+      font-size: 1rem;
+      background: #202225;
+      padding: 10px;
+      border-radius: 8px;
+      color: #00ffb3;
+      transition: 0.3s ease;
+    }
+  </style>
+
+    <div class="bank">
+    <h1> My Bank Account</h1>
+    <input type="number" id="amount" placeholder="Enter amount..." />
+    <div class="buttons">
+      <button id="depositBtn">Deposit</button>
+      <button id="withdrawBtn">Withdraw</button>
+      <button id="checkBtn">Check Balance</button>
+    </div>
+    <p id="message">💬 Welcome! Your starting balance is 1000.</p>
+  </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
